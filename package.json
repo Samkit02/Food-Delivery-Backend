@@ -10,6 +10,7 @@
   "author": "Samkit Developer",
   "license": "ISC",
   "dependencies": {
+	"heroku-prebuild": "rm -rf node_modules",
     "bcrypt": "^5.0.1",
     "express": "^4.17.1",
     "express-validator": "^6.12.1",

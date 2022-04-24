@@ -2,10 +2,10 @@ import mysql from 'mysql';
 import { promisify } from 'util';
 
 const pool = mysql.createPool({
-    host: '164.52.217.203',
-    user: 'samkit',
-    password: "Webp!0neer1980",
-    database: 'heroku_test'
+    host: 'localhost',
+    user: 'root',
+    password: "",
+    database: 'frave_food'
 });
 
 pool.getConnection((err, connection) => {

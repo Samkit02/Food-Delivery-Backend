@@ -34,7 +34,7 @@ export const loginController = async ( req, res = response ) => {
 
         res.json({
             resp: true,
-            msg : 'Welcome to Frave Restaurant',
+            msg : 'Welcome',
             user: {
                 uid: user.uid,
                 firstName: user.firstName,
@@ -71,7 +71,7 @@ export const renewTokenLogin = async ( req, res = response ) => {
         
         res.json({
             resp: true,
-            msg : 'Welcome to Frave Restaurant',
+            msg : 'Welcome',
             user: {
                 uid: user.uid,
                 firstName: user.firstName,
